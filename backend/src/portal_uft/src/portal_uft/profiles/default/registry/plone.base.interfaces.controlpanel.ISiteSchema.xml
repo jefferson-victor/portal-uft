@@ -4,6 +4,7 @@
            prefix="plone"
            purge="false"
   >
-    <value key="site_title">Portal UFT</value>
+    <value key="site_title">Portal da UFT</value>
+    <value key="enable_sitemap">True</value>
   </records>
 </registry>
