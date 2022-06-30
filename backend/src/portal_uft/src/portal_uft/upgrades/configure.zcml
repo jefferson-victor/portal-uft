@@ -3,17 +3,15 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     >
 
-  <!-- Example upgrade step
   <genericsetup:upgradeSteps
       profile="portal_uft:default"
       source="20220630001"
-      destination="20230229001"
+      destination="20220630002"
       >
     <genericsetup:upgradeDepends
         title="Update registry value"
         import_steps="plone.app.registry"
         />
   </genericsetup:upgradeSteps>
-  -->
 
 </configure>
