@@ -36,4 +36,26 @@
         />
   </genericsetup:upgradeSteps>
 
+  <genericsetup:upgradeSteps
+      profile="portal_uft:default"
+      source="20220630004"
+      destination="20220630005"
+      >
+    <genericsetup:upgradeDepends
+        title="Add content type Campus"
+        import_steps="typeinfo"
+        />
+  </genericsetup:upgradeSteps>
+
+  <genericsetup:upgradeSteps
+      profile="portal_uft:default"
+      source="20220630005"
+      destination="20220630006"
+      >
+    <genericsetup:upgradeDepends
+        title="Apply contact_info begavior to Campus"
+        import_steps="typeinfo"
+        />
+  </genericsetup:upgradeSteps>
+
 </configure>
