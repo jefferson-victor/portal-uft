@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-06-30 22:40+0000\n"
+"POT-Creation-Date: 2022-06-30 22:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,6 +27,10 @@ msgstr ""
 
 #: portal_uft/src/portal_uft/profiles/default/types/campus.xml
 msgid "Campus in the site"
+msgstr ""
+
+#: portal_uft/src/portal_uft/content/campus.py:12
+msgid "City"
 msgstr ""
 
 #: portal_uft/src/portal_uft/behaviors/contact_info.py:13
