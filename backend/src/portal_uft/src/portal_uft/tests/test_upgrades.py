@@ -37,10 +37,25 @@ class UpgradeStepIntegrationTest(unittest.TestCase):
             self.assertEqual(len(steps), 1)
 
 
-# Example of upgrade step test
-# class V20220630001UpgradeTest(UpgradeStepIntegrationTest):
-#     """Test upgrade step from version 20220630001."""
+class V20220630001UpgradeTest(UpgradeStepIntegrationTest):
+    """Test upgrade step from version 20220630001."""
 
-#     src = "20220630001"
-#     dst = "20230229001"
-#     steps = 1
+    src = "20220630001"
+    dst = "20220630002"
+    steps = 1
+
+
+class V20220630002UpgradeTest(UpgradeStepIntegrationTest):
+    """Test upgrade step from version 20220630002."""
+
+    src = "20220630002"
+    dst = "20220630003"
+    steps = 1
+
+
+class V20220630003UpgradeTest(UpgradeStepIntegrationTest):
+    """Test upgrade step from version 20220630003."""
+
+    src = "20220630003"
+    dst = "20220630004"
+    steps = 1

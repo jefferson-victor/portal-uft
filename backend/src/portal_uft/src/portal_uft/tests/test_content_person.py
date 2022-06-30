@@ -1,6 +1,7 @@
 from kitconcept import api
 from plone.app.testing import setRoles
 from plone.app.testing import TEST_USER_ID
+from portal_uft import validators
 from portal_uft.content.person import IPerson
 from portal_uft.testing import PORTAL_UFT_INTEGRATION_TESTING
 from zope.component import createObject
