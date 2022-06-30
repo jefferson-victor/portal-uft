@@ -17,7 +17,7 @@ class TestCitiesVocabulary(unittest.TestCase):
     def test_vocabulary(self):
         vocab = api.vocabulary.get(VOCABULARY)
         terms = [term for term in vocab]
-        self.assertEqual(len(terms), 3)
+        self.assertEqual(len(terms), 4)
 
     def test_vocabulary_titles(self):
         vocab = api.vocabulary.get(VOCABULARY)
@@ -26,3 +26,4 @@ class TestCitiesVocabulary(unittest.TestCase):
         self.assertIn("Palmas", titles)
         self.assertIn("Araguaína", titles)
         self.assertIn("Gurupi", titles)
+        self.assertIn("Porto Nacional", titles)
