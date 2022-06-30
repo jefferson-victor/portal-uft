@@ -1,0 +1,19 @@
+{
+  "portal": [
+    {
+      "email": "jefferson.victor@uft.edu.br",
+      "properties": {
+        "fullname": "Portal UFT",
+        "location": "World"
+      },
+      "groups": [
+      ],
+      "roles": [
+        "Member"
+      ],
+      "username": "portal-uft"
+    }
+  ],
+    "team": [
+  ]
+}
