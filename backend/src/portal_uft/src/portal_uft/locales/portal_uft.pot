@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-07-01 01:29+0000\n"
+"POT-Creation-Date: 2022-07-01 01:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -94,8 +94,13 @@ msgstr ""
 msgid "city"
 msgstr ""
 
+#. Default: "Campus"
+#: portal_uft/src/portal_uft/content/person.py:23
+msgid "person_campus"
+msgstr ""
+
 #. Default: "Biography"
-#: portal_uft/src/portal_uft/content/person.py:16
+#: portal_uft/src/portal_uft/content/person.py:19
 msgid "person_description"
 msgstr ""
 
@@ -105,6 +110,6 @@ msgid "person_email"
 msgstr ""
 
 #. Default: "Fullname"
-#: portal_uft/src/portal_uft/content/person.py:13
+#: portal_uft/src/portal_uft/content/person.py:16
 msgid "person_title"
 msgstr ""
