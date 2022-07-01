@@ -1,4 +1,6 @@
 """A Campus in the site."""
+
+from kitconcept import api
 from plone.dexterity.content import Container
 from plone.supermodel.model import Schema
 from portal_uft import _
@@ -19,3 +21,14 @@ class ICampus(Schema):
 @implementer(ICampus)
 class Campus(Container):
     """A campus in the site."""
+
+    def persons(self):
+
+        """Return a list of persons connected to this Campus."""
+
+        persons = [
+            rel.from_object
+            for rel in api.relation.get(target=self, relationship="campus")
+        ]
+
+        return persons
