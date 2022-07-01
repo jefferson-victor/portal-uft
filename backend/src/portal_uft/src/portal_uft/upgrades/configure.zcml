@@ -71,10 +71,9 @@
 
   <genericsetup:upgradeSteps
       profile="portal_uft:default"
-      source=""
-      >20220701001"
+      source="20220701001"
       destination="20220701002"
-      &gt;
+      >
     <genericsetup:upgradeDepends
         title="Update permissions rolemap (with portal_uft: Add Campus)"
         import_steps="rolemap"
@@ -82,6 +81,17 @@
     <genericsetup:upgradeDepends
         title="Modify add permission for Campus"
         import_steps="typeinfo"
+        />
+  </genericsetup:upgradeSteps>
+
+  <genericsetup:upgradeSteps
+      profile="portal_uft:default"
+      source="20220701002"
+      destination="20220701003"
+      >
+    <genericsetup:upgradeDepends
+        title="Altera o workflow do tipo Person"
+        import_steps="workflow"
         />
   </genericsetup:upgradeSteps>
 
